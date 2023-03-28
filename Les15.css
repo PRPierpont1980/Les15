@@ -1,0 +1,96 @@
+
+body{ 
+    padding: 5px;
+    background-color: rgb(43, 189, 226);
+}
+input[type="text"], input[type="email"], textarea, select, button{
+     display: block;
+     margin: 15px 0px;
+     width: 400px;
+     box-sizing: border-box;
+     border-radius: 4px; box-shadow: inset 2px 2px 5px plum;
+}
+button:active{
+    background-color: plum;
+    color: white;
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px purple;
+}
+textarea{
+    height: 100px;
+    padding: 5px 4px;
+}
+form{
+    font-family: 'Alkatra', cursive;
+    color: purple;
+    margin-left: 535px;
+}
+table{
+    font-family: 'Alkatra', cursive;
+    background-color: aqua;
+    border-style: dashed;
+    border-color: purple;
+    margin-left: 380px;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 10px 15px;
+}
+header {
+    margin-left: 625px;
+    margin-right:10px;
+    margin-top: 30px;
+    padding: 5px;
+    background-color: rgb(182, 46, 141);
+    width: 200px;
+    font-family: 'Alkatra', cursive; 
+    color: aqua;
+    border-radius: 25px;
+    text-align: center;
+    }
+    ul a{
+        font-family: 'Alkatra', cursive;
+        color: aqua;
+        text-decoration: none;
+        }
+        li{
+        display: inline-block;
+        height: 22px;
+        width: 100px;
+        padding: 12px;
+        text-align: center;
+        border-left: 2px solid green;
+        border-right: 1px solid green;
+        background-color: purple;
+        border-radius: 15px;
+        }
+    li:hover{
+        background-color: blue;
+        text-decoration: none;
+    }
+    footer{
+        font-family: 'Alkatra', cursive;
+        margin-left: 550px;
+        padding: 5px;
+    }
+    ul{
+        margin-left: 500px;
+    }
+    div{
+        font-family: 'Alkatra', cursive;
+        background-color: aqua;
+        border-color: purple;
+        margin-left: 535px;
+        margin-right: 530px;
+        width: 400px;
+        height: 50%;
+        border-style: double;
+        border-width: thin;
+        border-color: black;
+        text-shadow: 3px 3px 3px purple;
+        border-radius: 10px;
+    }
+    h3{
+        margin-left: 150px;
+    }
+    
